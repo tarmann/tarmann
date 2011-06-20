@@ -1,28 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>Bruno Tarmann - Designer e Desenvolvedor Front-end</title>
-	<link type="text/css" media="screen" rel="stylesheet" href="http://www.tarmann.com.br/style.css"  />
-
-	<meta name="title" content="Bruno Tarmann Barretto" />
-	<meta name="description" content="Site do designer e desenvolvedor front-end Bruno Tarmann, criador do concurso quermeusdvds.com.br." />
-	<meta name="keywords" content="bruno tarmann, designer, usabilidade, acessibilidade, interface, usuários, simplicidade, testes, ergonomia, IHC, interação humano-computador, portfólio, web design, webdesign, css, html" />
-	<meta name="resource-type" content="document" />
-
-	<meta name="distribution" content="global" />
-	<meta name="rating" content="general" />
-	<meta name="robots" content="ALL" />
-	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				
+	<title>Bruno Tarmann | Front-End Engineer</title>
+	<meta name="description" content="Designer e Desenvolvedor Front-end">
+	<meta name="keywords" content="tarmann, bruno tarmann, designer, usabilidade, acessibilidade, interface, usuários, simplicidade, testes, ergonomia, IHC, interação humano-computador, portfólio, web design, webdesign, css, html">
+	<meta name="author" content="Bruno Tarmann">
+		
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="home">
 
-<div id="page">
-
-	<h1><a href="/">Bruno Tarmann</a></h1>
-	<h2>Designer e Desenvolvedor Front-end</h2>
-	
-	<hr />
+	<header>
+		<h1><a href="/">Bruno Tarmann</a></h1>
+		<h2>Front-End Engineer</h2>
+	</header>
 	
 	<ul class="favilist" id="links">
 		<li><img src="images/ico/rss.gif" alt="Blog" /><a href="http://tarmann.com.br/blog">Blog</a></li>
@@ -31,7 +25,18 @@
 		<li><img src="images/ico/lastfm.gif" alt="Last.fm" /><a href="http://www.last.fm/user/tarmann/">Last.fm</a></li>
 		<li><img src="images/ico/flickr.gif" alt="Flickr" /><a href="http://www.flickr.com/photos/tarmann/">Flickr</a></li>
 	</ul>
-</div>
-
+	<!-- end of page -->
+	
+	<!-- jquery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+	
+	<!-- google analytics -->
+	<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 </body>
 </html>

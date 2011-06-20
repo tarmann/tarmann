@@ -1,0 +1,29 @@
+/* TEAM */
+
+  Me: Bruno Tarmann
+  Contact: contato [at] tarmann.com.br
+  Twitter: @tarmann
+  From: São Paulo, Brazil
+
+/* THANKS */
+
+  jQuery Creator: John Resig
+  Twitter: @jeresig 
+  
+  Zombie Movie Maker: George A. Romero
+  Twitter: @OfficialRomero 
+  
+  Zombie Comic Maker: Robert Kirkman
+  Twitter: @robertkirkman
+  
+  Non Sense Science Fiction Writer: Douglas Adams
+  Twitter: R.I.P.
+  
+  My Dog: Bob
+  Twitter: are you serious?
+
+/* SITE */
+
+  Language: Portuguese
+  Doctype: HTML5
+  IDE: Coda, Notepad++, Komodo Edit, Photoshop
