@@ -19,9 +19,13 @@ body{
 	font-size: 100%;
 }
 
+a{
+	color: #C42100;
+}
+
 h1{
   font-family: 'Oswald', serif;
-  font-size: 36px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 400;
   text-shadow: none;
@@ -40,15 +44,7 @@ h2{
 	margin-bottom: 20px;
 }
 
-hr{
-	display: none;
-}
-
-a{
-	color: #C42100;
-}
-
-#page{
+#wrapper{
 	border-left: solid 3px #C42100;
 	padding-left: 100px;
 	margin: 100px 0 0 0;
@@ -57,29 +53,27 @@ a{
 #links{
 	font-size: 90%;
 	margin-top: 20px;
-	border-top: dashed 1px #3A4138;
 	padding-top: 10px;
-	width: 100px;
 }
 
 #links li{
-	margin-bottom: 5px;
+	font-family: 'Oswald', serif;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#links li a{
+	padding: 5px;
+	background: #C42100;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 #links li img{
 	vertical-align: bottom;
 	margin-right: 5px;
 }
-
-blockquote{
-	width: 400px;
-	font-size: 120%;
-	font-style: italic;
-	color: #666666;
-	margin-bottom: 5px; 
-}
-
-cite{
-	font-size: 80%;
-}
-
