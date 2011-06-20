@@ -7,8 +7,6 @@ address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:nor
 li{list-style:none;}
 caption,th{text-align:left;}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
-q:before,q:after{content:'';}
-abbr,acronym {border:0;font-variant:normal;}
 sup {vertical-align:text-top;}
 sub {vertical-align:text-bottom;}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
@@ -17,13 +15,21 @@ legend{color:#000;}
 /* PAGE */
 
 body{
-	font-family: Baskerville,"Baskerville",Garamond,Georgia,"Georgia",Times,"Times New Roman",serif;
+	font-family: Arial;
 	font-size: 100%;
 }
 
 h1{
-	font-size: 250%;
-	font-style: italic;
+  font-family: 'Oswald', serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
 }
 
 h1 a{
