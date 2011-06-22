@@ -15,6 +15,7 @@ legend{color:#000;}
 /* PAGE */
 
 body{
+	background: url(../img/bg.gif);
 	font-family: Arial;
 	font-size: 100%;
 }
